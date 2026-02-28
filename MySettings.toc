@@ -1,0 +1,32 @@
+## Interface: 120000, 120001
+## Title: |cff00FF7FMySettings|r
+## IconTexture: 7422715
+## Author: DramatikMan
+## Notes: my custom account-wide settings and utilities for WoW
+## Version: 1.0.0
+## Dependencies: Bartender4
+
+# init
+ms/constant.lua
+ms/helpers.lua
+
+# modules
+ms/cvars.lua
+ms/bars/bars.lua
+ms/bars/class/death_knight.lua
+ms/bars/class/demon_hunter.lua
+ms/bars/class/druid.lua
+ms/bars/class/evoker.lua
+ms/bars/class/hunter.lua
+ms/bars/class/mage.lua
+ms/bars/class/monk.lua
+ms/bars/class/paladin.lua
+ms/bars/class/priest.lua
+ms/bars/class/rogue.lua
+ms/bars/class/shaman.lua
+ms/bars/class/warlock.lua
+ms/bars/class/warrior.lua
+
+# core
+ms/core.lua
+ms/cli.lua
