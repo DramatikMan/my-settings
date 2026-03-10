@@ -10,7 +10,7 @@ MS.ActionBarSetters[MS.ClassID.ROGUE] = function()
         MS.PutSpellInSlot("Envenom", 2, 110)
     elseif MS.MySpecName == "Subtlety" then
         MS.PutSpellInSlot("Backstab", 1)
-        MS.PutSpellInSlot("Eviscerate", 2, 110)
+        MS.PutMacroInSlot("Eviscerate", 2, 110)
         MS.PutSpellInSlot("Black Powder", 3, 111)
     end
 

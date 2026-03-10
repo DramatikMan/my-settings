@@ -1,6 +1,7 @@
 -- CVars https://warcraft.wiki.gg/wiki/Console_variables
 
 MS.SetCVars = function()
+    _G.SetCVar("ResampleAlwaysSharpen", 1)
     _G.SetCVar("nameplateShowSelf", 1)
     _G.SetCVar("autoLootDefault", 1)
     _G.SetCVar("AutoPushSpellToActionBar", 0)
