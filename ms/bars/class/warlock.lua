@@ -1,5 +1,5 @@
 MS.ActionBarSetters[MS.ClassID.WARLOCK] = function()
-    MS.PutSpellInSlot("Soulburn", 39)
+    MS.PutMacroInSlot("Soulburn", 39)
     MS.PutSpellInSlot("Burning Rush", 38)
     MS.PutActiveRacialInSlot(146)
     MS.PutSpellInSlot("Demonic Circle", 147)
