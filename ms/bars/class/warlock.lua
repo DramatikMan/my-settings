@@ -7,7 +7,7 @@ MS.ActionBarSetters[MS.ClassID.WARLOCK] = function()
     if MS.MySpecName == "Demonology" then
         MS.PutSpellInSlot("Shadow Bolt", 1)
         MS.PutSpellInSlot("Hand of Gul'dan", 2)
-        MS.PutSpellInSlot("Power Siphon", 3)
+        MS.PutMacroInSlot("Power Siphon", 3)
         MS.PutMacroInSlot("Axe Toss", 4)
     end
 
