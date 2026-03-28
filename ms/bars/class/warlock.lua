@@ -4,11 +4,15 @@ MS.ActionBarSetters[MS.ClassID.WARLOCK] = function()
     MS.PutActiveRacialInSlot(146)
     MS.PutSpellInSlot("Demonic Circle", 147)
 
+    MS.PutSpellInSlot("Shadow Bolt", 1)
+
     if MS.MySpecName == "Demonology" then
-        MS.PutSpellInSlot("Shadow Bolt", 1)
         MS.PutSpellInSlot("Hand of Gul'dan", 2)
         MS.PutMacroInSlot("Power Siphon", 3)
         MS.PutMacroInSlot("Axe Toss", 4)
+    elseif MS.MySpecName == "Affliction" then
+        MS.PutSpellInSlot("Unstable Affliction", 2)
+        MS.PutSpellInSlot("Haunt", 3)
     end
 
     for spellBookItemSlotIndex, name in MS.GetPlayerSpells() do
