@@ -18,4 +18,10 @@ MS.ActionBarSetters[MS.ClassID.HUNTER] = function()
     elseif MS.MySpecName == "Marksmanship" then
         MS.PutSpellInSlot("Eagle Eye", 9)
     end
+
+    for spellBookItemSlotIndex, name in MS.GetPlayerSpells() do
+        if name == "Call Pet" then
+            MS.PutSpellbookItemInSlot(spellBookItemSlotIndex, 8)
+        end
+    end
 end
