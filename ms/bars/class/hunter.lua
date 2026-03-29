@@ -12,7 +12,6 @@ MS.ActionBarSetters[MS.ClassID.HUNTER] = function()
     MS.PutMacroInSlot("Hunter_b2", 2)
     MS.PutMacroInSlot("Hunter_b3", 3)
     MS.PutMacroInSlot("Flare", 4)
-    MS.PutSpellInSlot("Dismiss Pet", 5)
 
     if MS.MySpecName == "Survival" then
         MS.PutSpellInSlot("Eyes of the Beast", 9)
