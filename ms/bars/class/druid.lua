@@ -1,3 +1,9 @@
+-- druid stances reminder:
+-- [stance:1] = Bear Form
+-- [stance:2] = Cat Form
+-- [stance:3] = Travel Form
+-- [stance:4] = Moonkin Form / Tree of Life
+
 MS.ActionBarSetters[MS.ClassID.DRUID] = function()
     MS.PutSpellInSlot("Mangle", 39)
     MS.PutSpellInSlot("Thrash", 38)
