@@ -1,4 +1,10 @@
--- druid stances reminder:
+-- spec indentifiers:
+-- [spec:1] = Balance
+-- [spec:2] = Feral
+-- [spec:3] = Guardian
+-- [spec:4] = Restoration
+
+-- stance indentifiers:
 -- [stance:1] = Bear Form
 -- [stance:2] = Cat Form
 -- [stance:3] = Travel Form
@@ -8,7 +14,12 @@ MS.ActionBarSetters[MS.ClassID.DRUID] = function()
     MS.PutMacroInSlot("Druid_b1", 1, 73, 85, 97, 109)
     MS.PutMacroInSlot("Druid_b2", 2, 74, 86, 98, 110)
     MS.PutMacroInSlot("Druid_b3", 3, 75, 87, 99, 111)
-    MS.PutMacroInSlot("Druid_b4", 4, 76, 88, 100, 112)
+
+    for spellBookItemSlotIndex, name in MS.GetPlayerSpells() do
+        if name == "Solar Eclipse" or name == "Lunar Eclipse" then
+            MS.PutSpellbookItemInSlot(spellBookItemSlotIndex, 4, 112)
+        end
+    end
 
     MS.PutSpellInSlot("Mangle", 39)
     MS.PutSpellInSlot("Thrash", 38)
