@@ -17,7 +17,7 @@ MS.ActionBarSetters[MS.ClassID.DRUID] = function()
 
     for spellBookItemSlotIndex, name in MS.GetPlayerSpells() do
         if name == "Solar Eclipse" or name == "Lunar Eclipse" then
-            MS.PutSpellbookItemInSlot(spellBookItemSlotIndex, 112)
+            MS.PutSpellbookItemInSlot(spellBookItemSlotIndex, 4, 112)
         end
     end
 
