@@ -21,6 +21,10 @@ MS.ActionBarSetters[MS.ClassID.DRUID] = function()
         end
     end
 
+    if MS.MySpecName == "Balance" then
+        MS.PutMacroInSlot("Druid_Balance", 5)
+    end
+
     MS.PutSpellInSlot("Mangle", 39)
     MS.PutSpellInSlot("Thrash", 38)
     MS.PutActiveRacialInSlot(146)
