@@ -7,7 +7,6 @@ MS.ActionBarSetters[MS.ClassID.DEATHKNIGHT] = function()
     MS.PutMacroInSlot("DK_b2", 2)
     MS.PutMacroInSlot("DK_b3", 3)
     MS.PutMacroInSlot("DK_b4", 4)
-    MS.PutMacroInSlot("DK_b5", 5)
 
     MS.PutSpellInSlot("Death Gate", 12)
 
