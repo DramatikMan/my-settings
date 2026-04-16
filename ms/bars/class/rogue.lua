@@ -4,6 +4,10 @@ MS.ActionBarSetters[MS.ClassID.ROGUE] = function()
 
     MS.PutSpellInSlot("Pick Lock", 11, 119)
 
+    MS.PutMacroInSlot("Rogue_b1", 1)
+    MS.PutMacroInSlot("Rogue_b2", 2, 110)
+    MS.PutMacroInSlot("Rogue_b3", 3, 111)
+
     if MS.MySpecName == "Outlaw" then
         MS.PutMacroInSlot("Saber Slash", 1)
         MS.PutMacroInSlot("Dispatch", 2, 110)
