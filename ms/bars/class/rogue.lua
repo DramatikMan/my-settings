@@ -8,18 +8,6 @@ MS.ActionBarSetters[MS.ClassID.ROGUE] = function()
     MS.PutMacroInSlot("Rogue_b2", 2, 110)
     MS.PutMacroInSlot("Rogue_b3", 3, 111)
 
-    if MS.MySpecName == "Outlaw" then
-        MS.PutMacroInSlot("Saber Slash", 1)
-        MS.PutMacroInSlot("Dispatch", 2, 110)
-    elseif MS.MySpecName == "Assassination" then
-        MS.PutSpellInSlot("Mutilate", 1)
-        MS.PutSpellInSlot("Envenom", 2, 110)
-    elseif MS.MySpecName == "Subtlety" then
-        MS.PutSpellInSlot("Backstab", 1)
-        MS.PutMacroInSlot("Eviscerate", 2, 110)
-        MS.PutSpellInSlot("Black Powder", 3, 111)
-    end
-
     -- stealth
     MS.PutSpellInSlot("Ambush", 109)
     MS.PutSpellInSlot("Sap", 112)
