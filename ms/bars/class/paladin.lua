@@ -2,16 +2,9 @@ MS.ActionBarSetters[MS.ClassID.PALADIN] = function()
     MS.PutSpellInSlot("Hand of Reckoning", 38)
     MS.PutActiveRacialInSlot(146)
 
-    MS.PutSpellInSlot("Crusader Strike", 1)
-    MS.PutSpellInSlot("Judgment", 2)
-
-    if MS.MySpecName == "Holy" then
-        MS.PutSpellInSlot("Shield of the Righteous", 3)
-    elseif MS.MySpecName == "Retribution" then
-        MS.PutSpellInSlot("Final Verdict", 3)
-    elseif MS.MySpecName == "Protection" then
-        MS.PutSpellInSlot("Shield of the Righteous", 3)
-    end
+    MS.PutMacroInSlot("Paladin_b1", 1)
+    MS.PutMacroInSlot("Paladin_b2", 2)
+    MS.PutMacroInSlot("Paladin_b3", 3)
 
     MS.PutSpellInSlot("Devotion Aura", 9)
     MS.PutSpellInSlot("Crusader Aura", 10)
